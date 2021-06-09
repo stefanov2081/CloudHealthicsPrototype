@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Cloud Healthics - Login</title>
+</head>
+
+<body>
+    <section class="login-layout">
+        <main class="login-section">
+            <div>
+                <img src="./images/cloud-healthics-logo.png" alt="Cloud Healthics Logo">
+                <h1>Sign in to your account.</h1>
+
+                <form onsubmit="return false;">
+                    <input id="username" type="text" placeholder="Healthics ID" />
+                    <input id="password" type="text" placeholder="Password" />
+                    <p id="validation-error-message" class="validation-error-message hidden">Error: Wrong username or password!</p>
+                    <input type="submit" onclick="login()" value="Login" />
+                </form>
+
+                <p>If you don't have an account yet, <a href="#" onclick="alertDemo()">Sign Up now.</a></p>
+            </div>
+        </main>
+
+        <aside class="aside">
+        </aside>
+    </section>
+
+    <script src="site.js"></script>
+</body>
+
+</html>

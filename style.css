@@ -18,6 +18,12 @@ html, body {
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+h1 {
+    color:#303030;
+    
+    font-weight: 400;
+}
 /* 
 body {
     background: url(./images/login-page-mobile.png) no-repeat;
@@ -40,11 +46,11 @@ body {
     margin: 60px 10px 0 0;
 }
 
-.login-section > div h1 {
+/* .login-section > div h1 {
     color:#303030;
     
     font-weight: 400;
-}
+} */
 
 .login-section input {
     width: 100%;
@@ -201,11 +207,77 @@ body {
     color:#303030;
 }
 
+.main-layout h1 {
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    margin: 10px;
+
+    /* flex-basis: 268px; */
+
+    flex-basis: 160px;
+}
+
+.card a {
+    text-decoration: none;
+    color:#303030;
+}
+
+.card h3 {
+    font-weight: 600;
+}
+
+.card-type-1-caption-background {
+    width: 50px;
+    height: 50px;
+
+    background-color: #C7488E;
+}
+
+.card-type-1-caption-background img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-type-2-caption-background-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 25px;
+
+    background-color: #0070c0;
+
+    color: #fff;
+    font-size: 22px;
+}
+
+.card-type-2-caption-background-b {
+    width: 50px;
+    height: 50px;
+}
+
+.card-type-2-caption-background-b img {
+    width: 100%;
+    height: 100%;
+
+    filter: brightness(0) saturate(100%);
+}
+
 @media (min-width: 576px) {
 }
 
 @media (min-width: 768px) {
-
     /* Login */
 
     .login-layout {
@@ -220,12 +292,12 @@ body {
 
     /* Login */
 
-    /* Explore Layout*/
+    /* Main Layout */
 
     .page-layout {
         display: grid;
         grid-template-columns: 100px auto;
-        grid-template-rows: 57px auto;
+        grid-template-rows: 57px calc(100vh - 57px);
 
         height: 100%;
     }
@@ -281,7 +353,6 @@ body {
         height: 100%;
     }
 
-    
     .sidebar-container nav ul:first-child {
         margin-top: 20px;
     }
@@ -297,26 +368,36 @@ body {
     .main-layout {
         grid-column: 2/3;
         grid-row: 2/3;
-    }
 
-    /* Explore Layout */
-
-    /* Main Layout */
-
-    .main-layout {
         padding: 15px 15px 0 15px;
 
         background-color: #F6F5F5;
     }
 
     .main-layout main {
-        
         height: 100%;
         width: 100%;
+
+        overflow: auto;
         
         background-color: #FFF;
     }
+
     /* Main Layout */
+
+    /* Main Layout Content */
+
+    .main-layout h1 {
+        margin: 20px;
+    }
+
+    .card {
+        margin: 20px;
+    
+        flex-basis: 218px;
+    }
+    
+    /* Main Layout Content */
 } 
 
 @media (min-width: 992px) {

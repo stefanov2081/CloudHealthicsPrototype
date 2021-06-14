@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Cloud Healthics - Explore</title>
+</head>
+
+<body>
+    <div class="page-layout">
+        <header class="main-navigation-layout">
+            <nav class="main-navigation">
+
+                <img src="./images/cloud-healthics-logo.png" alt="Cloud Healthics Logo">
+
+                <a href="javascript: void(0)" class="inactive-link search">
+                    <img src="./images/search-icon.svg" alt="search">
+                </a>
+
+                <ul class="navigation-items">
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            Products
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            Cloud
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            Domains
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            Modules
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            CRM
+                        </a>
+                    </li>
+                    <li class="selected">
+                        <a href="#">
+                            Explore
+                        </a>
+                    </li>
+                </ul>
+
+                <a href="javascript: void(0)" class="inactive-link chat">
+                    <img src="./images/chat-icon.svg" alt="chat">
+                </a>
+                <a href="javascript: void(0)" class="inactive-link user-profile">
+                    <img src="./images/user-profile-icon.svg" alt="user profile">
+                </a>
+
+                <button class="toggle-side-navigation" onclick="toggleSidebar();">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30"
+                        focusable="false">
+                        <title>Menu</title>
+                        <path stroke="black" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
+                            d="M4 7h22M4 15h22M4 23h22"></path>
+                    </svg>
+                </button>
+            </nav>
+        </header>
+
+        <aside class="sidebar-container hidden">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            <img class="" src="./images/calendar-icon.svg" alt="calendar">
+                            <span class="sidebar-navigation-item-title">Calendar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            <img class="" src="./images/chat-icon.svg" alt="meet">
+                            <span class="sidebar-navigation-item-title">Meet</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            <img class="" src="./images/location-icon.svg" alt="location">
+                            <span class="sidebar-navigation-item-title">Location</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            <img class="" src="./images/folders-icon.svg" alt="folders">
+                            <span class="sidebar-navigation-item-title">Folders</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            <img class="" src="./images/security-icon.svg" alt="security">
+                            <span class="sidebar-navigation-item-title">Security</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            <img class="" src="./images/information-icon.svg" alt="information">
+                            <span class="sidebar-navigation-item-title">Information</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="main-layout">
+            <main>
+                <h1>On-demand secure and reliable health data for research and development</h1>
+
+                <section class="row">
+                    <article class="card">
+                        <a href="javascript: void(0)" class="inactive-link">
+                            <div>
+                                <div class="card-type-1-caption-background">
+                                    <img src="./images/card-clinical-caption.svg" alt="Clinical card caption">
+                                </div>
+                                <section class="card-body">
+                                    <h3 class="card-title">Clinical</h3>
+                                    <p class="card-text">EHR, e-Prescriptions, Treatment plans, Lab tests, e-Images,
+                                        reports</p>
+                                </section>
+                            </div>
+                        </a>
+                    </article>
+                </section>
+
+                <h1>Build, test and deploy health products and services with Healthics Cloud</h1>
+
+                <section class="row">
+                    <article class="card">
+                        <a href="sandbox.html">
+                            <div>
+                                <div class="row">
+                                    <div class="card-type-2-caption-background-a">
+                                        1
+                                    </div>
+                                    <div class="card-type-2-caption-background-b">
+                                        <img src="./images/card-sandbox-caption.svg" alt="Card sandbox caption">
+                                    </div>
+                                </div>
+                                <section class="card-body">
+                                    <h3 class="card-title">Sandbox</h3>
+                                    <p class="card-text">Use our sandboc environment to test the data, prototype your
+                                        solutions or simulate AI</p>
+                                </section>
+                            </div>
+                        </a>
+                    </article>
+                   
+                </section>
+            </main>
+        </section>
+    </div>
+
+    <script src="site.js"></script>
+</body>
+
+</html>

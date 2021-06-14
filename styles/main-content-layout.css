@@ -10,6 +10,13 @@
     flex-flow: row wrap;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
 .main-content-layout > main > header.row {
     justify-content: space-between;
 }
@@ -20,9 +27,18 @@
 }
 
 .main-content-layout > main > h1,
-.main-content-layout > main > header,
-.main-content-layout > main > section {
+.main-content-layout > main > h2,
+.main-content-layout > main > h3 {
     margin: 20px;
+}
+
+.main-content-layout > main > section {
+    margin: 20px 10px 20px 10px;
+}
+
+.main-content-layout > main > header,
+.main-content-layout > main > header > section {
+    margin: 10px;
 }
 
 @media (min-width: 576px) {

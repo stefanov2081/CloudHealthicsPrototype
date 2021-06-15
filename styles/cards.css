@@ -181,6 +181,92 @@
     height: 25px;
 }
 
+.card-eu-license {
+    display: flex;
+    flex-flow: column nowrap;
+
+    text-align: center;
+
+    background-color: #F2F2F2;
+
+}
+
+.card-eu-license-caption {
+    position: relative;
+    margin: 12.5% 20px 20px 20px;
+}
+
+.card-eu-license:last-child .card-eu-license-caption {
+    margin-bottom: 0;
+}
+
+.card-eu-license > div > img {
+    width: 22%;
+}
+
+.card-eu-license-caption-stamp {
+    position: absolute;
+    top: -23%;
+    left: 53%;
+
+    display: inline-flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+    width: 13vw;
+    height: 13vw;
+
+    font-size: 7vw;
+
+    color: #FFF;
+}
+
+.card-eu-license-title {
+    margin: 0 20px;
+
+    font-size: 30px;
+}
+
+.card-eu-license-price {
+    margin: 20px;
+    
+    font-size: 50px;
+}
+
+.card-eu-license-price-span {
+    font-size: 17px;
+}
+
+.card-eu-license-body-small {
+    font-size: 15px;
+
+    margin: 0 20px;
+}
+
+.card-eu-license-body-large {
+    font-size: 25px;
+}
+
+.card-eu-license a {
+    height: 50px;
+
+    line-height: 50px;
+    text-align: center;
+
+    background-color: #C5A2FD;
+
+    font-size: 20px;
+    color: #fff;
+
+    margin: 20px;
+}
+
+.card-eu-license {
+    justify-content: space-between;
+}
+
 @media (min-width: 576px) {
     .card {
         flex-basis: calc(50vw - 38.4929px);
@@ -196,6 +282,13 @@
     .last-card-development-type-b-container {
         flex-basis: calc(66.66vw - 25px);
     }
+
+    .card-eu-license-caption-stamp {
+        width: 7vw;
+        height: 7vw;
+
+        font-size: 3.5vw;
+    }
 }
 
 @media (min-width: 768px) {
@@ -210,6 +303,13 @@
 
     .last-card-development-type-b-container {
         flex-basis: 330px;
+    }
+
+    .card-eu-license-caption-stamp {
+        width: 30px;
+        height: 30px;
+
+        font-size: 15px;
     }
 } 
 

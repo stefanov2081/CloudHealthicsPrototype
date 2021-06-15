@@ -1,0 +1,12 @@
+section.main-content-layout > main > header.heading {
+    margin: 20px;
+}
+
+@media (min-width: 992px) {
+    section.main-content-layout > main > header.heading {
+        flex-flow: row nowrap;
+        align-items: flex-end;
+    
+        margin: 20px;
+    }
+}

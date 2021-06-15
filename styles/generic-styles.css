@@ -30,3 +30,15 @@ h1, h2 {
     text-decoration: none;
     color:#303030;
 }
+
+.bg-magenta {
+    background-color: #C7488E;
+}
+
+.bg-blue {
+    background-color: #5148FA;
+}
+
+.bg-green {
+    background-color: #11C369;
+}

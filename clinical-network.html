@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/generic-styles.css">
+    <link rel="stylesheet" href="./styles/page-layout.css">
+    <link rel="stylesheet" href="./styles/main-navigation.css">
+    <link rel="stylesheet" href="./styles/sidebar-navigation.css">
+    <link rel="stylesheet" href="./styles/page-layout.css">
+    <link rel="stylesheet" href="./styles/main-content-layout.css">
+    <link rel="stylesheet" href="./styles/cards.css">
+    <link rel="stylesheet" href="./styles/clinical-network.css">
+    <title>Cloud Healthics - Explore</title>
+</head>
+
+<body>
+    <div class="page-layout">
+        <header class="main-navigation-layout">
+            <nav class="main-navigation">
+
+                <img src="./images/cloud-healthics-logo.png" alt="Cloud Healthics Logo">
+
+                <a href="javascript: void(0)" class="inactive-link">
+                    <img src="./images/search-icon.svg" alt="Search">
+                </a>
+
+                <ul class="navigation-items">
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            Products
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            Cloud
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            Domains
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            Modules
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            CRM
+                        </a>
+                    </li>
+                    <li class="selected">
+                        <a href="#">
+                            Explore
+                        </a>
+                    </li>
+                </ul>
+
+                <a href="javascript: void(0)" class="inactive-link">
+                    <img src="./images/chat-icon.svg" alt="Chat">
+                </a>
+                <a href="javascript: void(0)" class="inactive-link user-profile">
+                    <img src="./images/user-profile-icon.svg" alt="User profile">
+                </a>
+
+                <button class="toggle-side-navigation" onclick="toggleSidebar();">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30"
+                        focusable="false">
+                        <title>Menu</title>
+                        <path stroke="black" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
+                            d="M4 7h22M4 15h22M4 23h22"></path>
+                    </svg>
+                </button>
+            </nav>
+        </header>
+
+        <aside class="sidebar-container hidden">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            <img src="./images/calendar-icon.svg" alt="Calendar">
+                            <span class="sidebar-navigation-item-title">Calendar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            <img src="./images/chat-icon.svg" alt="Meet">
+                            <span class="sidebar-navigation-item-title">Meet</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            <img src="./images/location-icon.svg" alt="Location">
+                            <span class="sidebar-navigation-item-title">Location</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            <img src="./images/folders-icon.svg" alt="Folders">
+                            <span class="sidebar-navigation-item-title">Folders</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            <img src="./images/security-icon.svg" alt="Security">
+                            <span class="sidebar-navigation-item-title">Security</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="inactive-link">
+                            <img src="./images/information-icon.svg" alt="Information">
+                            <span class="sidebar-navigation-item-title">Information</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="main-content-layout">
+            <main>
+                <header class="row">
+                    <section>
+                        <a href="javascript: void(0)" class="inactive-link link">
+                            Dashboard >
+                        </a>
+
+                        <a href="./explore.html" class="link">
+                            Explore >
+                        </a>
+
+                        <span class="link">
+                            Hospital Network
+                        </span>
+                    </section>
+                </header>
+
+                <h1 class="heading-soft">Secure clinical infrastructure to deploy and scale your products and services
+                </h1>
+
+                <div class="table-container">
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <th>N</td>
+                            <th>Country</td>
+                            <th>Hospitals</td>
+                            <th>Pharmacy</td>
+                            <th>Status</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Portugal</td>
+                            <td>17</td>
+                            <td>517</td>
+                            <td>Active</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Italy</td>
+                            <td>32</td>
+                            <td>372</td>
+                            <td>Development</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Sweden</td>
+                            <td>11</td>
+                            <td>129</td>
+                            <td>Active</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Romania</td>
+                            <td>24</td>
+                            <td>762</td>
+                            <td>No License</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Bulgaria</td>
+                            <td>23</td>
+                            <td>892</td>
+                            <td>No License</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Slovakia</td>
+                            <td>14</td>
+                            <td>245</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Finland</td>
+                            <td>19</td>
+                            <td>256</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Poland</td>
+                            <td>33</td>
+                            <td>545</td>
+                            <td>No License</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Sweden</td>
+                            <td>28</td>
+                            <td>526</td>
+                            <td>Active</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Poland</td>
+                            <td>33</td>
+                            <td>545</td>
+                            <td>Active</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="map-container">
+                    <img src="./images/healthics-eu-system-map.png" alt="Map of Healthics's EU System">
+                </div>
+            </main>
+        </section>
+    </div>
+
+    <script src="site.js"></script>
+</body>
+
+</html>

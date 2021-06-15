@@ -21,6 +21,10 @@ h1, h2 {
     font-weight: 400;
 }
 
+.heading-soft {
+    font-weight: 200;
+}
+
 .hidden {
     visibility: hidden;
     opacity: 0;
